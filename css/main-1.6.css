@@ -167,7 +167,7 @@ body {
 }
 #introtext .amp {
     position: relative;
-    top: 19px;
+    top: 0px;
     margin-left: -10px;
     font-size: 0.7em;
 }
@@ -238,7 +238,7 @@ nav ul li a::-moz-focus-inner {border:0;}
 }
 .main header {
     float: left;
-    width: 80%;
+    width: 100%;
 }
 
 /* ==========================================================================
@@ -260,7 +260,7 @@ body {
 #bg-image {
     position: fixed; 
     top: -50%; 
-    left: -50%; 
+    left: -100%; 
     width: 200%; 
     height: 200%;
 }
@@ -341,6 +341,14 @@ section h2 {
         background-position: 50% 20%;
     }
 
+    #bg-image {
+        position: fixed; 
+        top: -50%; 
+        left: -50%; 
+        width: 200%; 
+        height: 200%;
+    }
+
     /** get the transparent bar on the bottom **/
     .header-container {
         position:absolute;
@@ -367,7 +375,7 @@ section h2 {
     }
     #introtext .amp {
         position: relative;
-        top: 29px;
+        top: 0px;
         font-size: 0.9em;
         margin-left: -20px;
     }
@@ -418,7 +426,7 @@ section h2 {
     .main header {
         margin-top: 10%;
         float: left;
-        width: 40%;
+        width: 100%;
         min-width: 320px;
     }
 
