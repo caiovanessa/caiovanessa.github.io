@@ -229,7 +229,7 @@ nav ul li a::-moz-focus-inner {border:0;}
 
 
 
-/* ==============
+* ==============
     MOBILE: Main
    ============== */
 
@@ -263,7 +263,7 @@ body {
     width: 200%; 
     height: 200%;
 }
-#bg-image img {
+#bgImageInner {
     position: absolute; 
     top: 0; 
     left: 0; 
@@ -272,8 +272,14 @@ body {
     margin: auto; 
     min-width: 50%;
     min-height: 50%;
+    background: url('img/caiovanessa2.jpg');
 }
 
+@media (max-width: 600px) {
+  #bgImageInner {      
+     background: url('img/caiovanessa3.jpg');
+  }
+}
 #bg-container {
 
 }
