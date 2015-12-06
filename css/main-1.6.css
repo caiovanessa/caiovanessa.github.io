@@ -101,6 +101,18 @@ body {
     border-radius: 8px;
 }
 
+#foto iframe {
+    width: 93%;
+    height: 200px;
+    width: 200px;
+
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+}
+
 #gmap small a,
 #gmap small a:active,
 #gmap small a:visited {
@@ -446,6 +458,11 @@ section h2 {
     }
 
     #gmap iframe {
+        height: 400px;
+        width: 650px;
+    }
+    
+    #foto iframe {
         height: 400px;
         width: 650px;
     }
